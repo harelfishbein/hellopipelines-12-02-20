@@ -32,7 +32,7 @@ namespace hellopipelines_12_02_20
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("<p>test mvc for azure pipelines</p>");
                 });
             });
         }
